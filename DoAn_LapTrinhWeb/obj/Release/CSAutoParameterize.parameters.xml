@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WatchShopDbContext-Web.config Connection String" description="WatchShopDbContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\SQLEXPRESS;Initial Catalog=WatchStoreData;Integrated Security=True;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Đồ\ án\ tham\ khảo\\Website\\NVTComputerFinal\\DoAn_LapTrinhWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WatchShopDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="WatchShopDbContext_DatabasePublish-Web.config Connection String" description="WatchShopDbContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="WatchShopDbContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Đồ\ án\ tham\ khảo\\Website\\NVTComputerFinal\\DoAn_LapTrinhWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WatchShopDbContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

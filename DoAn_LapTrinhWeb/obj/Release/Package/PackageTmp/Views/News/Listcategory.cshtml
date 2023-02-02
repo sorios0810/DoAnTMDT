@@ -1,0 +1,8 @@
+﻿@model IEnumerable<DoAn_LapTrinhWeb.Models.ParentCategory>
+
+@foreach (var item in Model)
+{
+    <li>
+        <a href="/news/genre/@item.slug">@item.name</a>      
+    </li>
+}

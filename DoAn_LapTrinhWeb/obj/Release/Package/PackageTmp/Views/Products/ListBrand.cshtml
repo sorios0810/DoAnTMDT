@@ -1,0 +1,8 @@
+﻿@model IEnumerable<DoAn_LapTrinhWeb.Models.Brand>
+
+@foreach (var item in Model)
+{
+    <li class="row d-flex">
+        <a href="/@item.slug">@item.brand_name</a>
+    </li>
+}
